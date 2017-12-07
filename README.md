@@ -25,8 +25,6 @@ Before running the `terminus build:project:create` command, make sure you have a
 * An account with GitHub and an authentication token capable of creating new repos.
 * An account with CircleCI and an authentication token.
 
-You may find it easier to export the GitHub and CircleCI tokens as variables on your command line where the Build Tools Plugin can detect them automatically:
-
 ```
 export GITHUB_TOKEN=[REDACTED]
 export CIRCLE_TOKEN=[REDACTED]
